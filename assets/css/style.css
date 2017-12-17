@@ -1,0 +1,53 @@
+body{
+	background-image: url("../images/background.jpg")
+}
+div{
+	background-color: #bf8d587d;
+	margin: 10px;
+	width: 25%;
+	font-size: 20px;
+}
+div{
+	border: solid 2px #a6a1a108;
+	padding: 10px;
+}
+h1,h3,span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{font-size: 30pt;
+}
+ol{
+	list-style: decimal inside;
+}
+ul{
+	list-style: disc inside;
+	text-indent: 20px;
+}
+
+div.header, div.crystals{
+	background-color: #ab865e5c;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+/*classes*/
+.numberGoal, .winsAndLoss{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.playerTotal{
+	width: 15%;
+	height: 60px;
+}
+.crystals{
+	clear: both;
+}
+.crystImage{
+	height: 100px;
+	margin: 10px;
+	float: left;
+
+}
+
